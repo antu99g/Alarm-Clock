@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    
+    <link rel="stylesheet" href="./assets/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!-- Parent container of the alarm clock -->
+    <div id="container">
+
+        <!-- Clock logo -->
+        <img src="./assets/clock.jpg" alt="Alarm Clock Image" id="logo">
+
+        <!-- Container of current time -->
+        <div id="currentTimeContainer">00:00:00 PM</div>
+
+
+        <div id="setAlarmContainer">
+
+            <!-- Inputs to set a new alarm -->
+            <div id="inputDiv">
+                <input type="number" class="alarmInput" placeholder="Hour" required>
+                <input type="number" class="alarmInput" placeholder="Min" required>
+                <input type="number" class="alarmInput" placeholder="Sec" required>
+                <select name="amPm" selected="AM" class="alarmInput">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+
+            <!-- Button to add a new alarm -->
+            <button id="alarmBtn">Set Alarm</button>
+
+        </div>
+
+        <!-- Heading of alarms section -->
+        <p class="alarmHeading hidden">Alarms</p>
+        
+        <!-- Container of all the alarms -->
+        <div id="alarmContainer">
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
