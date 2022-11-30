@@ -30,5 +30,5 @@ You can add alarms and an alert will appear on the time of alarm.
 ## Screenshots
 
 ![App Screenshot](https://github.com/antu99g/Alarm-Clock/blob/master/assets/screenshot/AlarmClock1.png)
-![App Screenshot](https://drive.google.com/file/d/1Rs0TS9nnuFPgcaS5P2m48tYB8zesAyMN/view?usp=share_link)
+![App Screenshot](https://github.com/antu99g/Alarm-Clock/blob/master/assets/screenshot/AlarmClock2.png)
 
