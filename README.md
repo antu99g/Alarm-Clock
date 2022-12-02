@@ -14,7 +14,7 @@ To run this project, run the following command
 
 ## Tech Stack
 
- HTML, CSS, JavaScript
+ `HTML`, CSS, JavaScript
 
 
 ## Features
