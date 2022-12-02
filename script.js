@@ -28,11 +28,15 @@ let time,
 // Fetching the list of all the Alarms from local storage
 let alarmsList = localStorage.getItem("alarmsList");
 
+
 // Change the alarms-list from string to array
+if (alarmsList == null) {
+    alarmsList = [];
+}
 if(alarmsList.length > 0) {
-  alarmsList = alarmsList.split(",");
-  renderAlarmToDOM();
-  checkAlarmHeader();
+    alarmsList = alarmsList.split(",");
+    renderAlarmToDOM();
+    checkAlarmHeader();
 }else{
     alarmsList = [];
 }
