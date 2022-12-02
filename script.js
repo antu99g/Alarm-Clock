@@ -200,11 +200,7 @@ function deleteAlarm(index){
     alarmsList.splice(index, 1);
 
     // Set the list of alarms to localstorage
-    if (alarmsList.length > 0){
-        localStorage.setItem("alarmsList", alarmsList);
-    } else {
-        localStorage.setItem("alarmsList", []);        
-    }
+    localStorage.setItem("alarmsList", alarmsList);
 
     // Updating alarms in DOM
     renderAlarmToDOM();
