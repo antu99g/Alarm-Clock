@@ -229,8 +229,6 @@ function checkAlarmHeader(){
 
 
 
-// alarmBtn.addEventListener('click', setAlarm);
-
 
 document.onclick = function(e){
     let target = e.target;
