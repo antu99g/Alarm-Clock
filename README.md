@@ -1,6 +1,6 @@
 # Alarm-Clock
 
-This is a pure frontend project with vanilla javascript. No JavaScript libraries are used.
+This is a frontend project with vanilla javascript. No JavaScript libraries are used. This is an alarm clock app. It shows an alert at the set time of alarm.
 
 
 ## Run the project
