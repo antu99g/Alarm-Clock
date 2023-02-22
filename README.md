@@ -30,7 +30,7 @@ You can add alarms and an alert will appear on the time of alarm.
 
 ## Hosted Link
 
-Visit site: [Career Camp](https://career-camp.onrender.com) 
+Visit site: [Alarm Clock](https://antu99g.github.io/Alarm-Clock/) 
 
 ## Screenshots
 
