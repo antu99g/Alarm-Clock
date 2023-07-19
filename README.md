@@ -1,6 +1,6 @@
 # Alarm-Clock
 
-This is a frontend project with vanilla javascript. No JavaScript libraries are used. This is an alarm clock app. It shows an alert at the set time of alarm.
+This is a frontend project with vanilla javascript. No JavaScript library used. This is an alarm clock app. It shows current time. It shows an alert when an alarm is set.
 
 ## Run the project
 
@@ -14,15 +14,10 @@ To run this project, run the following command
 
 `HTML` `CSS` `JavaScript`
 
-## Features
-
-- Fullscreen mode
-- Cross platform
-- Responsive across devices
-
 ## Usage
 
-You can add alarms and an alert will appear on the time of alarm.
+- You can see current time.
+- You can add alarms. An alert will appear on the time of alarm.
 
 ## Hosted Link
 
